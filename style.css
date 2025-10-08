@@ -1,0 +1,70 @@
+/* General styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  max-width: 700px;
+  margin: 2em auto;
+  background: white;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #800000;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Ordered list */
+ol {
+  list-style-type: decimal-leading-zero;
+  padding-left: 2em;
+}
+
+ol li {
+  margin: 0.6em 0;
+  font-size: 1.1rem;
+  transition: color 0.3s, transform 0.2s;
+}
+
+ol li:hover {
+  color: #800000;
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  margin-top: 2em;
+}
