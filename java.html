@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(255, 170, 170);
+            
+        }
+        h1{
+            color:blue;
+    
+
+
+        }
+        button{
+            background-color: rgb(255, 0, 0);
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="change">i love you</h1>
+    <button onclick="changeText()">please touch me</button>
+    <script>
+        function changeText(){
+            document.getElementById("change").innerHTML="i too love you so muchhh";
+        }
+    </script>
+</body>
+</html>
