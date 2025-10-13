@@ -67,3 +67,12 @@ li{
 .button:hover{
     background-color: rgb(234, 234, 234);
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: turquoise;
+    background-color: blue;
+    font-style: italic;
+}
