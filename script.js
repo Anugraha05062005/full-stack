@@ -108,5 +108,13 @@ let name="anitha";
 let age=22;
 let place="varanasi palayam pirivi in trippur";
 let str=`my mother name is ${name}.she is  ${age} years old.she live in ${place}`
-console.log(str); 
+//console.log(str); 
+
+//event looping
+console.log('first')
+promise.resolve().then(console.log('from promises'))
+setTimeout(()=>{
+    console.log('inside timeout')
+},2000)
+console.log('last')
 
